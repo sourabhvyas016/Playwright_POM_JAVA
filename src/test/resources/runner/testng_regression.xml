@@ -10,12 +10,7 @@
 	</listeners>
 
 
-	<test name="Test_chromium">
-	<parameter name="browser" value="chromium"></parameter>
-		<classes>
-			<class name="com.my.pname.tests.SignUpTest"></class>
-		</classes>  
-   </test> 
+	
 
 	<test name="Test_Chrome">
 	 <parameter name="browser" value="chrome"></parameter>
@@ -29,14 +24,20 @@
 			<class name="com.my.pname.tests.SignUpTest"></class>
 		</classes>  
    </test> 
-
+<!--
 	<test name="Test_edge">
 	 <parameter name="browser" value="edge"></parameter>
 		<classes>
 			<class name="com.my.pname.tests.LoginTest"></class>
 		</classes>
 	</test>
-
+<test name="Test_chromium">
+	<parameter name="browser" value="chromium"></parameter>
+		<classes>
+			<class name="com.my.pname.tests.SignUpTest"></class>
+		</classes>  
+   </test> 
+   -->
 	
 	
 	
