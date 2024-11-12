@@ -18,8 +18,8 @@
 			<class name="com.my.pname.tests.LoginTest"></class>
 		</classes>
 	</test>
-		<test name="Test_Firefox">
-	<parameter name="browser" value="firefox"></parameter>
+		<test name="Test_chrome">
+	<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="com.my.pname.tests.SignUpTest"></class>
 		</classes>  
