@@ -118,10 +118,10 @@ public class FactoryPly {
 	 String path=  System.getProperty("user.dir")+"/ScreenShots/"+sname+".png";
 			 
 			 
-			 getTlPage().screenshot(new Page.ScreenshotOptions().setFullPage(true).setPath(Paths.get(path)));
-			// String BasicBase64format= Base64.getEncoder().encodeToString(path.getBytes()); 
+		byte[] byt	= getTlPage().screenshot(new Page.ScreenshotOptions().setFullPage(true).setPath(Paths.get(path)));
+			 String BasicBase64format= Base64.getEncoder().encodeToString(byt); 
 		
-		return path;
+		return BasicBase64format;
 	}
 
 }
