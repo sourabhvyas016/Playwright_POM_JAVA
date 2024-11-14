@@ -13,7 +13,7 @@
 	
 
 	<test name="Test_Chrome">
-	 <parameter name="browser" value="chrome"></parameter>
+	 <parameter name="browser" value="firefox"></parameter>
 		<classes>
 			<class name="com.my.pname.tests.LoginTest"></class>
 		</classes>
